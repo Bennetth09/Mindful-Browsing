@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Mindful Browsing",
+    "version": "1.0",
+    "description": "Encourages mindfulness while browsing, reminding you to take breaks and stay relaxed.",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "alarms"
+    ],
+    "icons": {
+      "16": "Clock1.png",
+      "48": "Clock2.png",
+      "128": "Clock3.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "Clock1.png",
+        "48": "Clock2.png",
+        "128": "Clock3.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
